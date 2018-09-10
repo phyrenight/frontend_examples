@@ -1,12 +1,15 @@
 html, body{
     height:100%;
+    padding: 0;
+    margin: 0px 8px;
 }
+
 
 .outer_div{
-    height:350px;	
+    height:240px;	
 }
 
-.inside_div{
+.outer_div > div{
     width:150px;
     height: 150px;
     display:inline-block;
