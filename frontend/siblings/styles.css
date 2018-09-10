@@ -1,0 +1,22 @@
+html, body{
+    height:100%;
+}
+
+.outer_div{
+    height:350px;	
+}
+
+.inside_div{
+    width:150px;
+    height: 150px;
+    display:inline-block;
+    background-color: red;
+}
+
+#special_one + div{
+    background-color: green;
+}
+
+#special_two ~ div{
+    background-color: orange;
+}
